@@ -12,13 +12,15 @@ namespace rene
         {
             double h, b;
 
-            Console.WriteLine(" ingese la altura: ");
+            Console.WriteLine(" ingese la altura del ronboide: ");
             h = double.Parse(Console.ReadLine());
 
-            Console.WriteLine(" ingese la base: ");
+            Console.WriteLine(" ingese la base del ronboide: ");
             b = double.Parse(Console.ReadLine());
 
-            Console.WriteLine(calcular(h, b));
+
+
+            Console.WriteLine($"el area del ronboide: "+calcular(h, b));
             Console.ReadLine();
         }
         static double calcular(double h, double b)
