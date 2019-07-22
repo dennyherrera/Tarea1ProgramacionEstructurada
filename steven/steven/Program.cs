@@ -10,24 +10,24 @@ namespace steven
     {
         static void Main(string[] args)
         {
-            double b, h;
+            double bas, alt;
 
             Console.Write("Ingrese Base: ");
-            b = double.Parse(Console.ReadLine());
+            bas = double.Parse(Console.ReadLine());
 
             Console.Write("Ingrese la Altura: ");
-            h = double.Parse(Console.ReadLine());
+            alt = double.Parse(Console.ReadLine());
 
             Console.WriteLine();
 
-            Console.WriteLine($"El Area de el rectangulo es: {CalcularArea(b, h)} ");
+            Console.WriteLine($"El Area de el rectangulo es: {CalcularArea(bas, alt)} ");
 
             Console.ReadLine();
 
         }
-        static double CalcularArea(double b, double h)
+        static double CalcularArea(double bas, double alt)
         {
-            double respuesta = h * b;
+            double respuesta = bas * alt;
             return respuesta;
 
 
