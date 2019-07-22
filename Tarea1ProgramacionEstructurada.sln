@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea1ProgramacionEstructurada", "Tarea1ProgramacionEstructurada\Tarea1ProgramacionEstructurada.csproj", "{FEDD0BA4-7E08-4C47-BD5C-AD4BE590AFE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rene", "rene\rene.csproj", "{18307AE7-DB99-455B-923F-2B2106A6CFAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FEDD0BA4-7E08-4C47-BD5C-AD4BE590AFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEDD0BA4-7E08-4C47-BD5C-AD4BE590AFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEDD0BA4-7E08-4C47-BD5C-AD4BE590AFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18307AE7-DB99-455B-923F-2B2106A6CFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18307AE7-DB99-455B-923F-2B2106A6CFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18307AE7-DB99-455B-923F-2B2106A6CFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18307AE7-DB99-455B-923F-2B2106A6CFAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
