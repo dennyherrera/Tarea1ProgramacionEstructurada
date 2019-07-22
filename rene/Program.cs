@@ -19,6 +19,7 @@ namespace rene
             b = double.Parse(Console.ReadLine());
 
             Console.WriteLine(calcular(h, b));
+            Console.ReadLine();
         }
         static double calcular(double h, double b)
         {
